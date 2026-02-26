@@ -1,0 +1,40 @@
+img {
+    width:600px;
+}
+body {
+    text-align:center; 
+    font-family: 'Inter', sans-serif;
+    background: pink; 
+    color:green; }
+
+a:link{
+        color:green
+   
+}
+
+a:visited{
+    color:green;
+}
+a:hover {
+    color:palevioletred;
+}
+a:active {
+    color:green;
+}
+a:link{
+    background-color:rgb(250, 202, 234);
+}
+
+nav{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    z-index:1000;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    padding:1rem 3 rem;
+    
+}
